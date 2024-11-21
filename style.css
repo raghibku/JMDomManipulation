@@ -1,0 +1,100 @@
+.rebuy-product-redesign {
+	height: 167px;
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: start !important;
+	align-items: start !important;
+}
+
+.info-action-cont {
+	display: flex !important;
+	flex-direction: column !important;
+	justify-content: space-between !important;
+	align-items: start !important;
+	padding: 20px;
+	border: 1px solid #b4beb580;
+	height: 100%;
+	font-size: 16px !important;
+	white-space: nowrap !important ;
+}
+
+.media-element img {
+	height: 165px !important;
+	width: auto !important;
+	object-fit: cover !important;
+}
+.outer-card-list{
+	position: relative !important;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.card-list {
+	display: flex !important;
+	flex-wrap: nowrap !important;
+	gap: 20px;
+	flex-direction: row !important;
+	justify-content: start !important;
+	align-items: stretch !important;
+	width: 420px;
+	/* // height: 200px !important; */
+}
+
+.add-note-design {
+	background-color: #fff !important;
+}
+.rebuy-cart__flyout-note-toggle-input {
+	color: #737d7c !important;
+}
+.estimated-div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.coupon-div {
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+	border-top: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.coupon-div div {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #B2BEB5;
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    border: 1px solid #36454F;
+    color: #36454F;
+
+}
+
+#left-btn {
+    left: 10px;
+}
+
+#right-btn {
+    right: 10px;
+}
+
+.hidden {
+    display: none;
+}
+.relativeContainer{
+	position : relative !important;
+}
